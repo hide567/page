@@ -1,0 +1,24 @@
+/*
+Theme Name: Astra Child - 行政書士の道
+Template: astra
+Description: 行政書士試験勉強用のAstra子テーマ
+Version: 1.0.0
+*/
+
+/* Astraテーマの既存スタイルを継承 */
+
+/* カスタムプロパティ */
+:root {
+    --gyouseishoshi-primary: #4a6fa5;
+    --gyouseishoshi-secondary: #334e68;
+    --gyouseishoshi-accent: #d9d9d9;
+    --gyouseishoshi-text: #333;
+    --gyouseishoshi-light-bg: #f5f5f5;
+    --gyouseishoshi-warning: #ffc107;
+    --gyouseishoshi-danger: #dc3545;
+}
+
+/* 基本的なタイポグラフィの調整 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
